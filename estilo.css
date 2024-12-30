@@ -1,0 +1,87 @@
+
+/* FUNDO DO SITE*/
+body {
+    background-color: black;
+
+
+/* PAGINA INICIAL*/
+.tituloPrincipal{
+    font-size: 60px;
+    color: rgb(250, 247, 247);
+    text-align:left;
+    margin-left: 5%;
+    padding-top: 10%;  
+}
+
+
+/* REDES SOCIAIS*/
+.redesSociais{
+    text-align: left;
+    margin-left: 80px;
+    display: block;
+}
+
+
+/* FOTO DE APRESENTACAO*/
+.fotoApresentacao{
+    text-align: left;
+    margin-left: 950px;
+    margin-top: -300px;
+}
+
+
+/* ICONES*/
+
+.iconDev{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.iconFormacao{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.iconProjeto{
+    text-align: left;
+    margin-left: 100px;
+}
+
+
+/* PARAGRAFOS*/
+
+.pFormacao{
+    margin-top: -150px;
+}
+
+.pSobreMim{
+    margin-top: -150px;
+}
+
+.pProjetos{
+    margin-top: -150px;
+    font-size: 30px;
+}
+
+
+/* GERAL*/
+
+h1{
+    color: #e5f2fd;
+    text-align: left;
+    margin-left: 70px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: #e5f2fd;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;  /* Organiza as linhas verticalmente */
+    width: 800px;            /* Define a largura do contêiner */
+    word-wrap: break-word;
+    ;
+}
