@@ -1,10 +1,21 @@
 
 /* FUNDO DO SITE*/
 body {
-    background-color: black;
+    background-color: rgb(29, 29, 29);
+
+
+/* MENU */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px; 
+    
+}
 
 
 /* PAGINA INICIAL*/
+
 .tituloPrincipal{
     font-size: 60px;
     color: rgb(250, 247, 247);
@@ -26,7 +37,7 @@ body {
 .fotoApresentacao{
     text-align: left;
     margin-left: 950px;
-    margin-top: -300px;
+    margin-top: -310px;
 }
 
 
