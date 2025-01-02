@@ -9,7 +9,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    margin: 50px;
+    margin: 100px;
 }
 
 
@@ -44,6 +44,12 @@ nav a {
     margin-left: 80px;
 }
 
+.fotoPrototipo{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
 
 /* ICONES*/
 
@@ -69,7 +75,11 @@ nav a {
 }
 
 .projetoLivro{
-    margin-top: -240px;
+    margin-top: -270px;
+}
+
+.projetoPrototipo{
+    margin-top: -270px;
 }
 
 /* GERAL*/
@@ -106,6 +116,7 @@ p{
       font-size: 16px; /* Tamanho da fonte */
       cursor: pointer; /* Cursor em formato de mão */
       transition: all 0.3s ease; /* Efeito de transição */
+      text-decoration: none;
 }
 
 .visualizar:hover {
