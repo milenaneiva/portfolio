@@ -1,7 +1,7 @@
 
 /* FUNDO DO SITE*/
 body {
-    background-color: rgb(43, 42, 42);
+    background-color: rgb(0, 0, 0);
 
 
 /* MENU */
@@ -32,11 +32,16 @@ nav a {
 }
 
 
-/* FOTO DE APRESENTACAO*/
+/* FOTOS */
 .fotoApresentacao{
     text-align: left;
     margin-left: 950px;
     margin-top: -310px;
+}
+
+.fotoLivro{
+    text-align: left;
+    margin-left: 80px;
 }
 
 
@@ -52,11 +57,6 @@ nav a {
     margin-left: 100px;
 }
 
-.iconProjeto{
-    text-align: left;
-    margin-left: 100px;
-}
-
 
 /* PARAGRAFOS*/
 
@@ -68,11 +68,9 @@ nav a {
     margin-top: -150px;
 }
 
-.pProjetos{
-    margin-top: -150px;
-    font-size: 30px;
+.projetoLivro{
+    margin-top: -240px;
 }
-
 
 /* GERAL*/
 
@@ -95,3 +93,23 @@ p{
     word-wrap: break-word;
     ;
 }
+
+/* BOTÃO VISUALIZAR */
+
+.visualizar{
+    width: 100px; /* Largura */
+      padding: 20px; /* Espaçamento interno */
+      text-align: center; /* Centraliza o texto */
+      border: 2px solid white; /* Borda branca */
+      background-color: black; /* Fundo preto */
+      color: white; /* Cor do texto */
+      font-size: 16px; /* Tamanho da fonte */
+      cursor: pointer; /* Cursor em formato de mão */
+      transition: all 0.3s ease; /* Efeito de transição */
+}
+
+.visualizar:hover {
+    border-color: rgb(255, 255, 255); /* Cor da borda ao passar o mouse */
+    background-color: rgb(13, 167, 228); /* Fundo azul */
+    color: white; /* Cor do texto permanece branca */
+  }
